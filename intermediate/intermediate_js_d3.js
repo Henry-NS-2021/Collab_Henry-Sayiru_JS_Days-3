@@ -1,6 +1,5 @@
 //INTERMEDIATE 1
 
-
 let array = [76, 85, 65, 93, 81];
 var sum = 0;
 
