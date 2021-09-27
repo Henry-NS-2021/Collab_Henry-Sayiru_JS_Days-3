@@ -1,4 +1,4 @@
-//intermediate 1
+//INTERMEDIATE 1
 
 
 let array = [76, 85, 65, 93, 81];
@@ -40,11 +40,9 @@ if (avg < 60) {
 }
 
 
-//intermediate 2
+// // INTERMEDIATE 2
+for (var i = 1; i < 101; i++) {
 
-
-for ( var i = 1 ; i < 101; i ++) {
-    
     if (i % 15 == 0) {
         console.log("FizBuzz");
     } else if (i % 3 == 0) {
@@ -56,9 +54,7 @@ for ( var i = 1 ; i < 101; i ++) {
     }
 }
 
-//FizzBuzz Henry:
-
-
+//FizzBuzz:
 for (let i = 1; i < 101; i++) {
     if (i % (3 * 5) == 0) {
         console.log("FizzBuzz");
@@ -68,7 +64,41 @@ for (let i = 1; i < 101; i++) {
         console.log("Buzz");
     } else
         console.log(i);
-} 
+}
 
-//intermediate 3
+//--- INTERMEDIATE 3 Solutions
+//WHILE loop solution
+let zvezda = "*";
+let counter = 1;
+while (counter <= 7) {
+    console.log(zvezda);
+    counter = counter + 1;
+    zvezda += "*";
+}
 
+//DO WHILE Solution
+var count = 1;
+var Star = "*";
+do {
+    document.write(Star + "<br>");
+    Star += "*"
+    count = count + 1;
+} while (count < 8);
+
+//FOR loop Solution
+let stars = ["*", "**", "***", "****", "*****", "******", "*******"];
+for (let i = 0; i < stars.length; i++) {
+    document.write(stars[i] + "<br>");
+}
+
+//forEach loop
+let Stars = ["*", "**", "***", "****", "*****", "******", "*******"];
+Stars.forEach(function(myPyramid) {
+    console.log(myPyramid);
+});
+
+//FOR-OF loop
+let etoile = ["*", "**", "***", "****", "*****", "******", "*******"];
+for (var value of etoile) {
+    console.log(value);
+}
