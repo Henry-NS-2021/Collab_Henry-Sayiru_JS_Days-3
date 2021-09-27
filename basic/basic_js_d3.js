@@ -39,14 +39,18 @@ console.log(
 );
 
 // Solution 4
-// for (i = 0; i < number.length; i++) {
+var number = [1, 7, -3, 9];
+var max = 0;
 
-//     var max1 = number[i + 1];
+for (i = 0; i < number.length; i++) {
 
-//     if (max < max1) {
-//         var max = max1;
-//     }
-// }
+     var max1 = number[i + 1];
+
+     if (max < max1) {
+         var max = max1;
+     }
+ }
+ console.log(max);
 
 // //not allowed :D
 var myArray_4 = [1, 7, -3, 9];

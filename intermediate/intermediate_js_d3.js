@@ -101,3 +101,4 @@ let etoile = ["*", "**", "***", "****", "*****", "******", "*******"];
 for (var value of etoile) {
     console.log(value);
 }
+
